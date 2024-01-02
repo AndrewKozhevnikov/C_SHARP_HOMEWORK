@@ -5,8 +5,9 @@
 Console.Write("Введите натуральное число N: ");
 int n = int.Parse(Console.ReadLine()!);
 
-while (n > 0)
+while (n > 10)
 {
     Console.Write(n % 10 + ", ");
     n = n / 10;
 }
+Console.Write(n);
