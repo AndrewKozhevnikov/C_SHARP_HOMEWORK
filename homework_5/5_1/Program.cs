@@ -2,7 +2,6 @@
 // двумерном массиве и возвращает значение этого элемента или
 // указывает, что такого элемента нет.
 
-
 int[,] CreateMatrix(int rowCount, int columsCount) // Функция создания массива
 {
     int[,] matrix = new int[rowCount, columsCount];
@@ -40,4 +39,3 @@ if (i < 2 && j < 4)
     Console.Write("Значение элемента: " + matrix[i, j]);
 else
     Console.Write("Элемента с такой позицией нет");
-
